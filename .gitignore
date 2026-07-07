@@ -1,0 +1,21 @@
+# Environment
+.env
+
+# n8n data
+n8n_data/
+
+# PostgreSQL
+data/
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
