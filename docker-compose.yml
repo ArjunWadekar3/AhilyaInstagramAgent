@@ -1,5 +1,3 @@
-version: "3.9"
-
 services:
 
   postgres:
@@ -54,6 +52,9 @@ services:
       TZ: ${TZ}
 
       N8N_ENCRYPTION_KEY: ${N8N_ENCRYPTION_KEY}
+
+      WEBHOOK_URL: ${WEBHOOK_URL}
+      N8N_EDITOR_BASE_URL: ${N8N_EDITOR_BASE_URL}
 
     ports:
       - "5678:5678"
